@@ -6,3 +6,5 @@ const newFolderName = function (folders) {
 newFolderName(['New Folder', 'New Folder (2)', 'New folder (3)'])
 
 // The console log comes out to "New Folder (4)"
+
+module.exports = { newFolderName }
